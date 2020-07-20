@@ -1,4 +1,4 @@
 
 #### Self Driving Cars specialization
-######## Course Link
+- Course Link
 https://www.coursera.org/specializations/self-driving-cars
