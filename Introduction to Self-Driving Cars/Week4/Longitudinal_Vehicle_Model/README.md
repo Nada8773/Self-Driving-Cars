@@ -19,8 +19,6 @@
   1. Get Alpha
 
 ![Image](https://raw.githubusercontent.com/Nada8773/Self-Driving-Car/master/Introduction%20to%20Self-Driving%20Cars/Week4/Longitudinal_Vehicle_Model/Image/Alpha.PNG?token=AICENQYOFBHLI6S3MEO6LC27CYBUA)
-
-   From the Image Get
    - if x < 60 so Alpha is Constant and Equal (y/x) = arctan(3/60)
    - if x between 60 , 150 Alpha is Constant and Equal (y/x) = arctan(3/60)
    - if x more than 150 Alpha will be zero
@@ -28,7 +26,6 @@
 2. Get Throttle
 
 ![Image](https://raw.githubusercontent.com/Nada8773/Self-Driving-Car/master/Introduction%20to%20Self-Driving%20Cars/Week4/Longitudinal_Vehicle_Model/Image/Throttle.PNG?token=AICENQ67RDM6GDUG3M6AAJK7CYB2O)
-
    - As t_data.shape[0] equal to 2000
    - So 5s means 500
    - check if x less than 500 the throttle will be (slop * x + b)
