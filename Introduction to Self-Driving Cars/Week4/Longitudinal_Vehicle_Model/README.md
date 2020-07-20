@@ -1,22 +1,22 @@
 #### Implement longitudinal vehicle model
 
 - The Step Function Calculate
-1. Engine Torque
-2. Gravitational Force
-3. The load forces consist of aerodynamic drag
-4. Rolling Fraction
-5. Engine Speed 
-6. wheel Slip 
-7. Tire Force 
-Then Update
-8. Distance = old_Distance + Velocity * SampleTime
-9. Velocity = old_Velocity + Acceleration * SampleTime
-10. Acceleration = (Fx - Fload)/m
-11. We = We + We_dot * SampleTime
-12. We_dot = (Te - GR(Reff * Fload))/Je
+  1. Engine Torque
+  2. Gravitational Force
+  3. The load forces consist of aerodynamic drag
+  4. Rolling Fraction
+  5. Engine Speed 
+  6. wheel Slip 
+  7. Tire Force 
+  Then Update
+  8. Distance = old_Distance + Velocity * SampleTime
+  9. Velocity = old_Velocity + Acceleration * SampleTime
+  10. Acceleration = (Fx - Fload)/m
+  11. We = We + We_dot * SampleTime
+  12. We_dot = (Te - GR(Reff * Fload))/Je
 
 - Implement Ramp Angle 
-1. Get Alpha
+  1. Get Alpha
 
 ![Image](https://raw.githubusercontent.com/Nada8773/Self-Driving-Car/master/Introduction%20to%20Self-Driving%20Cars/Week4/Longitudinal_Vehicle_Model/Image/Alpha.PNG?token=AICENQYOFBHLI6S3MEO6LC27CYBUA)
 
