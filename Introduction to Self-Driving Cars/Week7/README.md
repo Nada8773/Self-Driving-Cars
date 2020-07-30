@@ -16,12 +16,10 @@ The vehicle needs to reach these waypoints at certain desired speeds, so both lo
 
 #### 2. Lateral Vehicle Modle
 
-'''
-For this project i used  Pure pursuit is the geometric path tracking controller.
-A geometric path tracking controller is any controller that 
-tracks a reference path using only the geometry of the vehicle kinematics 
-and the reference path
-'''
+- For this project i used  Pure pursuit is the geometric path tracking controller.
+  A geometric path tracking controller is any controller that tracks a reference path using only 
+  the geometry of the vehicle kinematics and the reference path
+
 ![Image](https://raw.githubusercontent.com/Nada8773/Self-Driving-Car/master/Introduction%20to%20Self-Driving%20Cars/Week7/Image/lateral3.PNG?token=AICENQ326C4PSPEJ4722FLK7ELRIO)
 
 ###### Formaluation
