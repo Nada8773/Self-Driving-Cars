@@ -12,7 +12,7 @@ The vehicle needs to reach these waypoints at certain desired speeds, so both lo
 - will use the equation in the image to get acceleration
   and in this assigment will assume that acceleration equal to throttle
   
-![Image](https://raw.githubusercontent.com/Nada8773/Self-Driving-Car/master/Introduction%20to%20Self-Driving%20Cars/Week7/Image/Longitudinal1.PNG?token=AICENQ7KEC34ANT5YNPJRDS7ELN2A)
+![Image](https://raw.githubusercontent.com/Nada8773/Self-Driving-Car/master/Introduction%20to%20Self-Driving%20Cars/Week7/Image/Longitudinal1.PNG?token=AICENQ72WLF3AEDQ6YRA3L27ELQ3W)
 
 #### 2. Lateral Vehicle Modle
 
@@ -22,11 +22,12 @@ A geometric path tracking controller is any controller that
 tracks a reference path using only the geometry of the vehicle kinematics 
 and the reference path
 '''
-![Image](https://raw.githubusercontent.com/Nada8773/Self-Driving-Car/master/Introduction%20to%20Self-Driving%20Cars/Week7/Image/lateral3.PNG?token=AICENQ25KDHIPDKIQEVJN3S7ELOUG)
+![Image](https://raw.githubusercontent.com/Nada8773/Self-Driving-Car/master/Introduction%20to%20Self-Driving%20Cars/Week7/Image/lateral3.PNG?token=AICENQ326C4PSPEJ4722FLK7ELRIO)
 
 ###### Formaluation
-![Image](https://raw.githubusercontent.com/Nada8773/Self-Driving-Car/master/Introduction%20to%20Self-Driving%20Cars/Week7/Image/lateral1.PNG?token=AICENQYOIAYDJJXYNBYP3CK7ELOW2)
-![Image](https://raw.githubusercontent.com/Nada8773/Self-Driving-Car/master/Introduction%20to%20Self-Driving%20Cars/Week7/Image/lateral2.PNG?token=AICENQ4P3JIPQTVDQDGGHUS7ELOYU)
+![Image](https://raw.githubusercontent.com/Nada8773/Self-Driving-Car/master/Introduction%20to%20Self-Driving%20Cars/Week7/Image/lateral1.PNG?token=AICENQ3KYWMKQOWU4RMEO6C7ELRBS)
+
+![Image](https://raw.githubusercontent.com/Nada8773/Self-Driving-Car/master/Introduction%20to%20Self-Driving%20Cars/Week7/Image/lateral2.PNG?token=AICENQ62P5MJCF6J2AJY6MS7ELRFA)
 
 #### Solution Figures
 ![Image](https://github.com/Nada8773/Self-Driving-Car/blob/master/Introduction%20to%20Self-Driving%20Cars/Week7/Image/out1.PNG)
