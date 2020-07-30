@@ -1,10 +1,20 @@
 ## Implementation
 
-For this project i used 
+In this project, implement a controller for the CARLA simulator.
+will control the vehicle to follow a race track by navigating through preset waypoints. 
+The vehicle needs to reach these waypoints at certain desired speeds, so both longitudinal and lateral control will be used.
 
-#### longitudinal vehicle Modle
+![Image](https://github.com/Nada8773/Self-Driving-Car/blob/master/Introduction%20to%20Self-Driving%20Cars/Week7/Image/vehicle%20track3.PNG)
+![Image](https://github.com/Nada8773/Self-Driving-Car/blob/master/Introduction%20to%20Self-Driving%20Cars/Week7/Image/vehicle%20track2.PNG)
 
-#### Lateral Vehicle Modle
+
+#### 1. longitudinal vehicle Modle
+- will use the equation in the image to get acceleration
+  and in this assigment will assume that acceleration equal to throttle
+  
+![Image](https://raw.githubusercontent.com/Nada8773/Self-Driving-Car/master/Introduction%20to%20Self-Driving%20Cars/Week7/Image/Longitudinal1.PNG?token=AICENQ7KEC34ANT5YNPJRDS7ELN2A)
+
+#### 2. Lateral Vehicle Modle
 
 '''
 For this project i used  Pure pursuit is the geometric path tracking controller.
@@ -12,12 +22,17 @@ A geometric path tracking controller is any controller that
 tracks a reference path using only the geometry of the vehicle kinematics 
 and the reference path
 '''
-Image lateral3
+![Image](https://raw.githubusercontent.com/Nada8773/Self-Driving-Car/master/Introduction%20to%20Self-Driving%20Cars/Week7/Image/lateral3.PNG?token=AICENQ25KDHIPDKIQEVJN3S7ELOUG)
 
 ###### Formaluation
+![Image](https://raw.githubusercontent.com/Nada8773/Self-Driving-Car/master/Introduction%20to%20Self-Driving%20Cars/Week7/Image/lateral1.PNG?token=AICENQYOIAYDJJXYNBYP3CK7ELOW2)
+![Image](https://raw.githubusercontent.com/Nada8773/Self-Driving-Car/master/Introduction%20to%20Self-Driving%20Cars/Week7/Image/lateral2.PNG?token=AICENQ4P3JIPQTVDQDGGHUS7ELOYU)
 
-Image lateral1
-Image lateral2
+#### Solution Figures
+![Image](https://github.com/Nada8773/Self-Driving-Car/blob/master/Introduction%20to%20Self-Driving%20Cars/Week7/Image/out1.PNG)
+
+#### Grade
+![Image](https://github.com/Nada8773/Self-Driving-Car/blob/master/Introduction%20to%20Self-Driving%20Cars/Week7/Image/out.PNG)
 
 
 ## How to use
@@ -30,7 +45,6 @@ Image lateral2
 
 ## Reference 
 
-'''
 - Empirical PID gain tuning (Kevin Lynch)
 https://www.youtube.com/watch?v=uXnDwojRb1g
 
@@ -39,5 +53,3 @@ https://nicisdigital.wordpress.com/2011/06/27/proportional-integral-derivative-p
 
 - Three Methods of Vehicle Lateral Control: Pure Pursuit, Stanley and MPC
 https://medium.com/@dingyan7361/three-methods-of-vehicle-lateral-control-pure-pursuit-stanley-and-mpc-db8cc1d32081
-
-'''
