@@ -12,7 +12,7 @@ The vehicle needs to reach these waypoints at certain desired speeds, so both lo
 - will use the equation in the image to get acceleration
   and in this assigment will assume that acceleration equal to throttle
   
-![Image](https://raw.githubusercontent.com/Nada8773/Self-Driving-Car/master/Introduction%20to%20Self-Driving%20Cars/Week7/Image/Longitudinal1.PNG?token=AICENQ72WLF3AEDQ6YRA3L27ELQ3W)
+![Image](https://raw.githubusercontent.com/Nada8773/Self-Driving-Car/master/Introduction%20to%20Self-Driving%20Cars/Week7/Image/Longitudinal1.PNG?token=AICENQZQZ4IKTZR3NMV62FC7ELS2K)
 
 #### 2. Lateral Vehicle Modle
 
@@ -20,12 +20,13 @@ The vehicle needs to reach these waypoints at certain desired speeds, so both lo
   A geometric path tracking controller is any controller that tracks a reference path using only 
   the geometry of the vehicle kinematics and the reference path
 
-![Image](https://raw.githubusercontent.com/Nada8773/Self-Driving-Car/master/Introduction%20to%20Self-Driving%20Cars/Week7/Image/lateral3.PNG?token=AICENQ326C4PSPEJ4722FLK7ELRIO)
+![Image](https://raw.githubusercontent.com/Nada8773/Self-Driving-Car/master/Introduction%20to%20Self-Driving%20Cars/Week7/Image/lateral3.PNG?token=AICENQZLZQY25LTJRKOCPCC7ELSQO)
+![Image](https://raw.githubusercontent.com/Nada8773/Self-Driving-Car/master/Introduction%20to%20Self-Driving%20Cars/Week7/Image/1.PNG?token=AICENQ5H2GPLHQT6GYPRBYS7ELSIC)
 
-###### Formaluation
-![Image](https://raw.githubusercontent.com/Nada8773/Self-Driving-Car/master/Introduction%20to%20Self-Driving%20Cars/Week7/Image/lateral1.PNG?token=AICENQ3KYWMKQOWU4RMEO6C7ELRBS)
+###### Lateral Formaluation
+![Image](https://raw.githubusercontent.com/Nada8773/Self-Driving-Car/master/Introduction%20to%20Self-Driving%20Cars/Week7/Image/lateral1.PNG?token=AICENQ62SVXU2JS3WXK3RHK7ELSXO)
 
-![Image](https://raw.githubusercontent.com/Nada8773/Self-Driving-Car/master/Introduction%20to%20Self-Driving%20Cars/Week7/Image/lateral2.PNG?token=AICENQ62P5MJCF6J2AJY6MS7ELRFA)
+![Image](https://raw.githubusercontent.com/Nada8773/Self-Driving-Car/master/Introduction%20to%20Self-Driving%20Cars/Week7/Image/lateral2.PNG?token=AICENQYKFTNSMOBFHT62BU27ELSUQ)
 
 #### Solution Figures
 ![Image](https://github.com/Nada8773/Self-Driving-Car/blob/master/Introduction%20to%20Self-Driving%20Cars/Week7/Image/out1.PNG)
